@@ -1,0 +1,11 @@
+@import "./fonts.css";
+@import "./variaveis.css";
+
+body {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Hanken Grotesk";
+  background-color: var(--primary-neutral);
+  color: var(--terciary-neutral);
+  height: 100vh;
+}

@@ -1,0 +1,20 @@
+:root {
+  --primary-color: hsl(0, 100%, 67%);
+  --primary-color-neutral: hsl(0, 89%, 89%);
+  --secondary-color: hsl(39, 100%, 56%);
+  --secondary-color-neutral: hsl(39, 100%, 88%);
+  --terciary-color: hsl(166, 100%, 37%);
+  --terciary-color-neutral: hsl(167, 100%, 92%);
+  --quaternary-color: hsl(234, 85%, 45%);
+  --quaternary-color-neutral: hsl(234, 100%, 93%);
+  --primary-grandient: hsl(252, 100%, 67%);
+  --secondary-grandient: hsl(241, 81%, 54%);
+  --terciary-grandient: hsla(256, 72%, 46%, 1);
+  --quaternary-grandient: hsla(241, 72%, 46%, 0);
+  --primary-neutral: hsl(0, 0%, 100%);
+  --secondary-neutral: hsl(221, 100%, 96%);
+  --terciary-neutral: hsl(241, 100%, 89%);
+  --quaternary-neutral: hsl(224, 30%, 27%);
+
+  --border-width: 2px;
+}

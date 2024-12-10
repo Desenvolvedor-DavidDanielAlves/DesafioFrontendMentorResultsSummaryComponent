@@ -1,0 +1,9 @@
+@import '../../variaveis.css';
+@import '../../fonts.css';
+
+.descricao .resultado .seu-resultado {
+  font-size: 3rem;
+  display: block;
+  font-weight: 700;
+  color: var(--primary-neutral);
+}

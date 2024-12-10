@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="principal">
+    <section class="descricao">
+      <h1 class="titulo">Your Result</h1>
+
+      <article class="resultado">
+        <span class="seu-resultado">76</span>
+        <span class="resultado-total">of 100</span>
+      </article>
+
+      <h2 class="subtitulo">Great</h2>
+
+      <p class="paragrafo">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+
+    <section class="summary">
+      <h2 class="subtitulo">Summary</h2>
+
+      <ul class="lista">
+        <li class="item">
+          <div class="container">
+            <img src="./assets/images/icon-reaction.svg" alt="icone de raio vermelho" class="imagem">
+            <span class="nome">Reaction</span>
+          </div>
+
+          <span class="pontuacao"><strong class="destaque">80</strong> / 100</span>
+        </li>
+
+        <li class="item">
+          <div class="container">
+            <img src="./assets/images/icon-memory.svg" alt="icone de cerebro amarelo" class="imagem">
+            <span class="nome">Memory</span>
+          </div>
+
+          <span class="pontuacao"><strong class="destaque">92</strong> / 100</span>
+        </li>
+
+        <li class="item">
+          <div class="container">
+            <img src="./assets/images/icon-verbal.svg" alt="icone de fala verde" class="imagem">
+            <span class="nome">Verbal</span>
+          </div>
+
+          <span class="pontuacao"><strong class="destaque">61</strong> / 100</span>
+        </li>
+
+        <li class="item">
+          <div class="container">
+            <img src="./assets/images/icon-visual.svg" alt="icone de olho azul escuro" class="imagem">
+            <span class="nome">Visual</span>
+          </div>
+
+          <span class="pontuacao"><strong class="destaque">72</strong> / 100</span>
+        </li>
+      </ul>
+
+      <button class="botao-continuar">Continue</button>
+    </section>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">David Daniel Alves</a>.
+  </div>
+</body>
+</html>

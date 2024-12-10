@@ -1,0 +1,11 @@
+@import './seu-resultado.css';
+@import './resultado-total.css';
+
+.descricao .resultado {
+  width: 130px;
+  margin: auto;
+  background-color: var(--secondary-grandient);
+  border-radius: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}

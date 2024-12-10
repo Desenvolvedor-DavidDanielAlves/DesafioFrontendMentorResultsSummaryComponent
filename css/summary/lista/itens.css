@@ -1,0 +1,67 @@
+.summary .lista .item:nth-child(1) {
+  background-color: var(--primary-color-neutral);
+  border: var(--border-width) solid hsla(0, 100%, 50%, 0.1);
+
+  & .nome {
+    color: var(--primary-color);
+  }
+
+  &::after {
+    background-color: var(--primary-color-neutral);
+  }
+
+  &::before {
+    background-color: var(--primary-color-neutral);
+  }
+}
+
+.summary .lista .item:nth-child(2) {
+  background-color: var(--secondary-color-neutral);
+  border: var(--border-width) solid hsla(39, 100%, 56%, 0.3);
+
+  & .nome {
+    color: var(--secondary-color);
+  }
+
+  &::after {
+    background-color: var(--secondary-color-neutral);
+  }
+
+  &::before {
+    background-color: var(--secondary-color-neutral);
+  }
+}
+
+.summary .lista .item:nth-child(3) {
+  background-color: var(--terciary-color-neutral);
+  border: var(--border-width) solid hsla(166, 100%, 37%, 0.3);
+
+  & .nome {
+    color: var(--terciary-color);
+  }
+
+  &::after {
+    background-color: var(--terciary-color-neutral);
+  }
+
+  &::before {
+    background-color: var(--terciary-color-neutral);
+  }
+}
+
+.summary .lista .item:nth-child(4) {
+  background-color: var(--quaternary-color-neutral);
+  border: var(--border-width) solid hsla(234, 85%, 45%, 0.1);
+
+  & .nome {
+    color: var(--quaternary-color);
+  }
+
+  &::after {
+    background-color: var(--quaternary-color-neutral);
+  }
+
+  &::before {
+    background-color: var(--quaternary-color-neutral);
+  }
+}

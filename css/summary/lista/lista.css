@@ -1,0 +1,19 @@
+@import './item.css';
+@import './container.css';
+@import './itens.css';
+
+.summary .lista {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+
+  & .destaque {
+    color: var(--quaternary-neutral);
+  }
+
+  & .pontuacao {
+    color: gray;
+  }
+}

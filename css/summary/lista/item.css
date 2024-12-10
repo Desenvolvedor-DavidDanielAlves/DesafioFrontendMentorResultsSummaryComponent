@@ -1,0 +1,41 @@
+.summary .lista .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: var(--border-width) solid rgb(0, 191, 255);
+  position: relative;
+  font-size: 1rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: calc(var(--border-width) + 7px);
+    bottom: calc(var(--border-width) + 7px);
+    left: calc(var(--border-width) - (var(--border-width) * 2));
+    right: calc(var(--border-width) - (var(--border-width) * 2));
+    z-index: 1;
+    background-color: lightblue;
+    border-radius: 0;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: calc(var(--border-width) - (var(--border-width) * 2));
+    bottom: calc(var(--border-width) - (var(--border-width) * 2));
+    left: calc(var(--border-width) + 7px);
+    right: calc(var(--border-width) + 7px);
+    z-index: 1;
+    background-color: lightblue;
+    border-radius: 0;
+  }
+}
+
+.summary .lista .item .container,
+.summary .lista .item .pontuacao {
+  position: relative;
+  z-index: 2;
+}

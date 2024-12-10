@@ -1,0 +1,8 @@
+@import './subtitulo.css';
+@import './botao-continuar.css';
+@import './lista/lista.css';
+
+.summary {
+  padding: 1.5rem;
+  color: black;
+}

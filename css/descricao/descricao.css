@@ -1,0 +1,11 @@
+@import './descricao-titulo.css';
+@import './subtitulo.css';
+@import './resultado/resultado.css';
+@import './resultado/resultado-total.css';
+
+.descricao {
+  background-color: var(--terciary-grandient);
+  padding: 1rem 2rem 2rem 2rem;
+  text-align: center;
+  border-radius: 0 0 2rem 2rem;
+}
